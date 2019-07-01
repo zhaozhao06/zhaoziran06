@@ -1,0 +1,719 @@
+/* 一屏的高度 */
+html,body,.main{
+    height:100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}  
+
+.swiper-button-next{
+    width:0.5rem;
+    height:0.4rem;
+    background:url("../images/arrow.png") center center no-repeat;
+    background-size:cover;
+    position:absolute;
+    bottom:0.4rem;
+    left:50%;
+    margin-left:-0.25rem;
+    top:auto;
+    animation: slideInUp 1s infinite;
+}
+
+@-webkit-keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInUp {
+    from {
+      -webkit-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+/* 第一页 */
+.page1>img{
+    position:absolute;
+}
+.page1{
+   background:url("../images/bj.png");
+   position:relative;
+   width:7.4rem;
+   height:6.1rem;
+   
+}
+.yuan{
+    width:7rem;
+    height:7.6rem;
+    right:0.2rem;
+    top:2rem;
+}
+
+.pao{
+    width:1.57rem;
+    height:1.8rem;
+    left:3.2rem;
+    top:11.2rem;
+}
+
+
+
+.zuo{
+    width:2rem;
+    height:2rem;
+    right:3rem;
+    top:4.2rem;
+}
+.pin{
+    width:0.9rem;
+    height:0.95rem;
+    left:3.6rem;
+    top:6.2rem;
+}
+
+.ji{
+    width:0.9rem;
+    height: 0.95rem;
+    bottom:5rem;
+    left:3.6rem;
+}
+
+
+.deng{
+    width:6.6rem;
+    height:4.03rem;
+    left:0.4rem;
+    top:0.2rem;
+}
+
+p{
+    position:absolute;
+    font-size:0.4rem;
+    left:2.2rem;
+    bottom:2.6rem;
+    line-height:1rem;
+    color: rgb(255, 255, 255); 
+}
+
+
+
+
+
+
+
+/* 第二页 */
+.page2{
+    position:relative;
+}
+.page2>img{
+    position:absolute;
+}
+ .page2{
+    background:url("../images/beijin.jpg") center center no-repeat;
+    background-size:cover;
+} 
+
+.tuyi{
+    width:3.18rem;
+    height:4.5rem;
+    left:0.3rem;
+    top:1rem;
+}
+
+.tuer{
+    width:3.18rem;
+    height:4.5rem;
+    right:0.3rem;
+    bottom:3.4rem;
+}
+.san{
+    width:3.18rem;
+    height:4.5rem;
+    left:0.3rem;
+    bottom:0.8rem;
+}
+.qidu{
+    position:absolute;
+    font-size:0.3rem;
+    left:0.6rem;
+    top:0.2rem;
+    line-height:0.8rem;
+    color: rgb(0, 0, 0); 
+}
+
+/* page3 */
+.page3{
+    position:relative;
+    background:url("../images/beijin.jpg");
+    background-size:100% 100%;
+}
+.page3>img{
+    position: absolute;
+}
+.mofa{
+   
+    font-size:0.3rem;
+    left:1.6rem;
+    top:0.2rem;
+    line-height:0.8rem;
+    color: rgb(0, 0, 0);
+}
+.si{
+ width:3.31rem;
+ height:4.68rem;
+ top:2rem;
+right:50%;
+ margin-left:-2.86rem;
+}
+.wu{
+    width:3.31rem;
+    height:4.68rem;
+    top:7rem;
+    left:90%;
+    margin-left:-2.86rem;
+    border: 1px;
+    border-color: black;
+  
+   }
+/* page4 */
+.page4{
+    position:relative;
+    background:url("../images/beijin.jpg");
+    background-size:100% 100%;
+}
+.page4>img{
+    position: absolute;
+}
+.dasai{
+    position:absolute;
+    font-size:0.3rem;
+    left:1.6rem;
+    top:0.2rem;
+    line-height:0.8rem;
+    color: rgb(0, 0, 0);
+}
+
+.beizi{
+    width:3.18rem;
+    height:4.5rem;
+    left:0.3rem;
+    top:1rem;
+}
+
+.shou{
+    width:3.18rem;
+    height:4.5rem;
+    right:0.3rem;
+    bottom:3.8rem;
+}
+.yaoshi{
+    width:3.18rem;
+    height:4.5rem;
+    left:0.3rem;
+    bottom:0.8rem;
+}
+/* page5 */
+.page5{
+    position:relative;
+    background:url("../images/beijin.jpg");
+    background-size:100% 100%;
+}
+.page5>img{
+    position: absolute;
+}
+.jita{
+    width:3.18rem;
+    height:4.5rem;
+    left:0.3rem;
+    top:1.2rem;
+}
+.yinxiang{
+    width:3.18rem;
+    height:4.5rem;
+    right:0.3rem;
+    top:1.2rem;
+}
+.ya{
+    width:3.18rem;
+    height:4.5rem;
+    left:0.3rem;
+    bottom:1.8rem;
+
+}
+.gou{
+    width:3.18rem;
+    height:4.5rem;
+    right:0.3rem;
+    bottom:1.8rem;
+}
+.sige{
+    position:absolute;
+    font-size:0.3rem;
+    left:1.6rem;
+    top:0.2rem;
+    line-height:0.8rem;
+    color: rgb(0, 0, 0);
+}
+
+/* page6 */
+.page6{
+    position:relative;
+    background:url("../images/beijin.jpg");
+    background-size:100% 100%;
+}
+.page6>img{
+    position: absolute;
+}
+.hayi{
+    width:3.18rem;
+    height:4.5rem;
+    left:0.3rem;
+    top:1.2rem;
+}
+.haer{
+    width:3.18rem;
+    height:4.5rem;
+    right:0.3rem;
+    top:1.2rem;
+}
+.weiyi{
+    width:3.18rem;
+    height:4.5rem;
+    left:0.3rem;
+    bottom:1.8rem;
+
+}
+.weier{
+    width:3.18rem;
+    height:4.5rem;
+    right:0.3rem;
+    bottom:1.8rem;
+}
+.haha{
+    position:absolute;
+    font-size:0.3rem;
+    left:1.6rem;
+    top:0.2rem;
+    line-height:0.8rem;
+    color: rgb(0, 0, 0);
+}
+
+/* page7 */
+.page7{
+    position:relative;
+    background:url("../images/beijin.jpg");
+    background-size:100% 100%;
+}
+.page7>img{
+    position: absolute;
+}
+.qiye{
+    position:absolute;
+    font-size:0.3rem;
+    left:1.6rem;
+    top:0.2rem;
+    line-height:0.8rem;
+    color: rgb(0, 0, 0);
+
+}
+.qizi{
+    width:3.18rem;
+    height:4.5rem;
+    left:0.3rem;
+    top:1.2rem;
+}
+.erzi{
+    width:3.18rem;
+    height:4.5rem;
+    right:0.3rem;
+    top:1.2rem;
+}
+
+.fuqin{
+    width:3.18rem;
+    height:4.5rem;
+    left:0.3rem;
+    bottom:1.8rem;
+
+}
+.aihuashi{
+    width:3.18rem;
+    height:4.5rem;
+    right:0.3rem;
+    bottom:1.8rem;
+}
+
+/* page8*/
+.page8{
+    position:relative;
+    background:url("../images/beijin.jpg");
+    background-size:100% 100%;
+}
+.page8>img{
+    position: absolute;
+}
+.zi{
+    position:absolute;
+    font-size:0.3rem;
+    left:2.2rem;
+    top:0.2rem;
+    line-height:0.8rem;
+    color: rgb(0, 0, 0);
+
+}
+.huayi{
+    width:3.18rem;
+    height:4.5rem;
+    left:0.3rem;
+    top:1.2rem;
+}
+.huaer{
+    width:3.18rem;
+    height:4.5rem;
+    right:0.3rem;
+    top:1.2rem;
+}
+
+.huasan{
+    width:3.18rem;
+    height:4.5rem;
+    left:0.3rem;
+    bottom:1.8rem;
+
+}
+.huasi{
+    width:3.18rem;
+    height:4.5rem;
+    right:0.3rem;
+    bottom:1.8rem;
+}
+
+
+/* page9*/
+.page9{
+    position:relative;
+    background:url("../images/beijin.jpg");
+    background-size:100% 100%;
+}
+.page9>img{
+    position: absolute;
+}
+.tu{
+    position:absolute;
+    font-size:0.3rem;
+    left:2.6rem;
+    top:0.2rem;
+    line-height:0.8rem;
+    color: rgb(0, 0, 0);
+
+}
+.niu{
+    width:3.18rem;
+    height:4.5rem;
+    left:0.3rem;
+    top:1.2rem;
+}
+
+.biao{
+    width:3.18rem;
+    height:4.5rem;
+    right:0.3rem;
+    top:1.2rem;
+}
+
+.fang{
+    width:4.22rem;
+    height:3.12rem;
+    left:0.3rem;
+    bottom:3.8rem;
+
+}
+.tiao{
+    width:4.32rem;
+    height:2.39rem;
+    right:0.3rem;
+    bottom:1.2rem;
+}
+
+/* page10*/
+.page10{
+    position:relative;
+    background:url("../images/beijin.jpg");
+    background-size:100% 100%;
+}
+.page10>img{
+    position: absolute;
+}
+.goucheng{
+    position:absolute;
+    font-size:0.3rem;
+    left:2.6rem;
+    top:0.2rem;
+    line-height:0.8rem;
+    color: rgb(0, 0, 0);
+
+}
+.heiyi{
+    width:3.18rem;
+    height:4.5rem;
+    left:0.3rem;
+    top:1.2rem;
+}
+
+.heier{
+    width:3.18rem;
+    height:4.5rem;
+    right:0.3rem;
+    top:1.2rem;
+}
+
+.heisan{
+    width:3.18rem;
+    height:4.5rem;
+    left:0.3rem;
+    bottom:1.2rem;
+
+}
+.heisi{
+    width:3.18rem;
+    height:4.5rem;
+    right:0.3rem;
+    bottom:1.2rem;
+}
+
+
+/* page11*/
+.page11{
+    position:relative;
+    background:url("../images/beijin.jpg");
+    background-size:100% 100%;
+}
+.page11>img{
+    position: absolute;
+}
+.meigong{
+    position:absolute;
+    font-size:0.3rem;
+    left:2.6rem;
+    top:0.2rem;
+    line-height:0.8rem;
+    color: rgb(0, 0, 0);
+
+}
+
+.taoyi{
+    width:8.09rem;
+    height:3.15rem;
+    left:0.1rem;
+    top:0.8rem;
+}
+
+.taoer{
+    width:8.09rem;
+    height:3.15rem;
+    left:0.1rem;
+    top:4rem;
+}
+
+.taosan{
+    width:3rem;
+    height:3rem;
+    left:0.3rem;
+    bottom:3rem;
+
+}
+.taosi{
+    width:3rem;
+    height:3rem;
+    right:0.3rem;
+    bottom:3rem;
+}
+
+.taowu{
+    width:3rem;
+    height:3rem;
+    right:0.3rem;
+    bottom:0.2rem;
+}
+
+.taoliu{
+    width:3rem;
+    height:3rem;
+    left:0.3rem;
+    bottom:0.2rem;
+}
+
+/* page12*/
+.page12{
+    position:relative;
+    background:url("../images/beijin.jpg");
+    background-size:100% 100%;
+}
+.page12>img{
+    position: absolute;
+}
+.tubiao{
+    position:absolute;
+    font-size:0.3rem;
+    left:2.6rem;
+    top:0.2rem;
+    line-height:0.8rem;
+    color: rgb(0, 0, 0);
+
+}
+
+.by{
+    width:3rem;
+    height:3rem;
+    left:0.3rem;
+    bottom:3rem;
+
+}
+.be{
+    width:3rem;
+    height:3rem;
+    right:0.3rem;
+    bottom:3rem;
+}
+
+.bs{
+    width:3rem;
+    height:3rem;
+    right:0.3rem;
+    bottom:0.2rem;
+}
+
+.bsi{
+    width:3rem;
+    height:3rem;
+    left:0.3rem;
+    bottom:0.2rem;
+}
+
+.bw{
+    width:3rem;
+    height:3rem;
+    left:0.3rem;
+    top:1rem;
+}
+.bl{
+    width:3rem;
+    height:3rem;
+    right:0.8rem;
+    top:1rem;
+}
+.bq{
+    width:3rem;
+    height:3rem;
+    left:0.3rem;
+    top:4rem;
+}
+.bb{
+    width:3rem;
+    height:3rem;
+    right:0.3rem;
+    top:4rem;
+}
+
+/* page13*/
+.page13{
+    position:relative;
+    background:url("../images/beijing.png");
+    background-size:100% 100%;
+}
+.page13>img{
+    position: absolute;
+}
+.xie{
+    width:0.9rem;
+    height:0.95rem;
+    left:3.2rem;
+    top:2.4rem;
+}
+.xieer{
+    width:0.9rem;
+    height:0.95rem;
+    left:3.2rem;
+    top:3.8rem;
+}
+.guan{
+    width:0.9rem;
+    height:0.95rem;
+    left:3.2rem;
+    top:5.2rem;
+}
+.kan{
+    width:0.9rem;
+    height:0.95rem;
+    left:3.2rem;
+    top:6.6rem;
+}
+
+.denger{
+    width:6.6rem;
+    height:4.03rem;
+    left:0.4rem;
+    top:8.8rem;
+}
+
+
+
+
+
+.erweima{
+   width:2.48rem;
+   height:2.5rem;
+   background:url("../images/erweima.png") center center no-repeat;
+   background-size:cover;
+   float:left;
+}
+.tips{
+   float:left;
+   margin-left:0.2rem;
+}
+.tips p{
+   font-size:0.36rem;
+   color:#fff;
+   
+   line-height:0.6rem;
+}
+
+.music{
+   width:1rem;
+   height:1rem;
+   background:url("../images/music.jpg") center center no-repeat;
+   background-size:cover;
+   position: absolute;
+   left:0.2rem;
+   top:0.2rem;
+   z-index:999;
+   border-radius:50%;
+   animation: music 2s linear infinite;
+
+}
+@keyframes music{
+    0%{
+        transform: rotate(0deg);
+                             
+      }
+   100%{
+        transform: rotate(360deg);
+                                 
+        }
+    }
